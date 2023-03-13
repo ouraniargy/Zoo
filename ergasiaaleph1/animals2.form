@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.unipi.talepis.animals2">
+  <grid id="27dc6" binding="zoo" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4487060"/>
+      <font size="20" style="1"/>
+      <foreground color="-16316665"/>
+    </properties>
+    <border type="none" title=""/>
+    <children>
+      <component id="99eb5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <foreground color="-16316665"/>
+          <text value="Welcome to our zoo"/>
+        </properties>
+      </component>
+      <vspacer id="f0c31">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="1fbb8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16316665"/>
+          <font name="Courier New" size="20"/>
+          <foreground color="-16316665"/>
+          <text value="Elephants"/>
+        </properties>
+      </component>
+      <component id="8332d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <foreground color="-16316665"/>
+          <text value="Dolphins"/>
+        </properties>
+      </component>
+      <component id="91daa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <foreground color="-16316665"/>
+          <text value="Giraffes"/>
+        </properties>
+      </component>
+      <component id="fce27" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <foreground color="-16316665"/>
+          <text value="Snakes"/>
+        </properties>
+      </component>
+      <component id="f4eb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <foreground color="-16316665"/>
+          <text value="Parrots"/>
+        </properties>
+      </component>
+      <component id="5dde0" class="javax.swing.JLabel" binding="label1">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="20"/>
+          <foreground color="-16316665"/>
+          <text value="Add animal"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
